@@ -173,7 +173,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: auto 4rem;
+    margin: 2rem 4rem;
 }
 #aboutRight h2 {
     font-size: 2rem;
@@ -203,9 +203,18 @@ main{
     color: rebeccapurple;
 }
 
-#extraContainer {
+#aboutRight2{
     width: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: auto 4rem;
+}
+
+.exSect{
+    width: 33%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
 }
