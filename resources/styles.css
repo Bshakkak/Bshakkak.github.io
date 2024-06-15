@@ -151,26 +151,29 @@ main{
     align-items: center;
     border-right: 1px solid black;
 }
+#aboutLeft h2{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
 #aboutLeft img{
     width: 10rem;
     height: auto;
     margin: 1rem;
 }
-#aboutLeft ul li{
-    margin: 0;
-    margin-bottom: 0.8rem;
-    font-weight: 500;
-    font-size: 0.9rem;
+#aboutLeft figcaption {
     text-align: center;
+    margin-bottom: 0.8rem;
 }
 
-
 #aboutRight{
-    width: calc(100% - 20rem);
+    width: calc(100% - 14rem);
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
+    margin: auto 4rem;
 }
 #aboutRight h2 {
     font-size: 2rem;
@@ -179,6 +182,30 @@ main{
 }
 #txtSumm {
     text-align: justify;
-    margin-right: 6rem;
     margin-bottom: 0.8rem;
+    font-weight: 450;
+    line-height: 1.4;
+}
+
+#aboutRight ul{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    cursor: default;
+}
+#aboutRight ul li{
+    margin: auto 1rem;
+    font-weight: 600;
+}
+#aboutRight ul li:hover{
+    color: rebeccapurple;
+}
+
+#extraContainer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

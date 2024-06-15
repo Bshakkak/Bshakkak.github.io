@@ -35,19 +35,41 @@
         </nav>
     </header>
     <main>
-        <section id="aboutMe">
+        <section id="aboutMe" role="region" aria-labelledby="about-me-title">
             <div id="aboutLeft">
-                <img src="./resources/images/person.svg" alt="Basil Ismail">
-                <ul>
+                <h2 id="about-me-title">About Me</h2>
+                <figure>
+                    <img src="./resources/images/person.svg" alt="Image of Basil Ismail">
+                    <figcaption class="logoFont">Basil Ismail</figcaption>
+                </figure>       
+                <!-- <ul>
+                    <li>Academic Researcher</li>
+                    <li>IBM Certified Data Scientist</li>
+                    <li>Web Developer</li>
+                    <li>Electrical and Computer Engineer</li>
+                </ul> -->
+            </div>
+            <div id="aboutRight">
+                <h2>Summary</h2>
+                <p id="txtSumm"></p>
+                <h4 id="about-tags" style="display: none;">My Skills and Expertise</h4>
+                <ul aria-labelledby="about-tags">
                     <li>Academic Researcher</li>
                     <li>IBM Certified Data Scientist</li>
                     <li>Web Developer</li>
                     <li>Electrical and Computer Engineer</li>
                 </ul>
-            </div>
-            <div id="aboutRight">
-                <h2>Summary</h2>
-                <p id="txtSumm"></p>
+                <div id="extraContainer" role="presentation">
+                    <div class="exSect">
+                        
+                    </div>
+                    <div class="exSect">
+
+                    </div>
+                    <div class="exSect">
+
+                    </div>
+                </div>
             </div>
         </section>
     </main>
