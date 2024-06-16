@@ -130,7 +130,7 @@ nav div h1{
     }
 }
 
-/*Main section*/
+/*Main section: About Me*/
 main{
     margin-top: 4.3125rem;
     width: 100%;
@@ -172,7 +172,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 3rem 4rem;
+    margin: 1rem 4rem;
 }
 #aboutRight h2 {
     font-size: 2rem;
@@ -208,7 +208,7 @@ main{
     justify-content: space-between;
     align-items: flex-start;
     flex-wrap: wrap;
-    margin: 2rem 0rem;
+    margin: 1rem 0rem;
 }
 
 #aboutRight2 .exSect{
@@ -375,4 +375,56 @@ main{
     .exTM ul li{
         margin-bottom: 0.4rem;
     }
+}
+
+/*Main section: Projects*/
+
+#projects {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#projRight{
+    width: 14rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+#projRight h2{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+#projRight img{
+    width: 10rem;
+    height: auto;
+    margin: 1rem;
+}
+#projCont{
+    width: calc(100% - 14rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 0.5rem 4rem;
+}
+#projCont h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0.8rem 0;
+}
+#projCont ul{
+    width: 70%;
+    list-style: circle;
+    margin-left: 1.2rem;
+    line-height: 1.4;
+}
+#projCont ul li{
+    margin: 0.6rem auto;
+    font-weight: 450;
+    text-align: justify;
 }
