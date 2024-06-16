@@ -108,7 +108,7 @@ nav div h1{
     }
     #sideMenu {
         position: absolute;
-        z-index: 2;
+        z-index: -1;
         width: 100%;
         height: 8rem;
         background-color: midnightblue;
@@ -149,7 +149,6 @@ main{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    border-right: 1px solid black;
 }
 #aboutLeft h2{
     margin-top: 1rem;
@@ -173,7 +172,7 @@ main{
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: 2rem 4rem;
+    margin: 3rem 4rem;
 }
 #aboutRight h2 {
     font-size: 2rem;
@@ -206,15 +205,174 @@ main{
 #aboutRight2{
     width: 100%;
     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin: 2rem 0rem;
+}
+
+#aboutRight2 .exSect{
+    width: auto;
+    display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    margin: auto 4rem;
+    margin-bottom: 0.8rem;
+    margin-right: 1.5rem;
+}
+#aboutRight2 .exSect span {
+    margin: 0.4rem 0;
+}
+#aboutTM {
+    display: none;
 }
 
-.exSect{
-    width: 33%;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    #aboutMe{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #aboutLeft {
+        display: none;
+    }
+    #aboutRight{
+        display: none;
+    }
+    #aboutTM {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #summTM {
+        width: 84%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #summTM h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+    }
+    #summTM p {
+        text-align: justify;
+        line-height: 1.3;
+        margin-bottom: 0.8rem;
+    }
+    #summTM ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        cursor: default;
+    }
+    #summTM ul li{
+        margin-bottom: 0.8rem;
+        font-weight: 600;
+    }
+    #summTM ul li:hover{
+        color: rebeccapurple;
+    }
+    .exTM {
+        width: 84%;
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 1rem;
+    }
+    .exTM h2{
+        font-size: 1.2rem;
+        font-weight: 800;
+    }
+    .exTM ul {
+        width: 70%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .exTM ul li{
+        margin-bottom: 0.4rem;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    #aboutMe{
+        width: 100%;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #aboutLeft {
+        display: none;
+    }
+    #aboutRight{
+        display: none;
+    }
+    #aboutTM {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    #summTM {
+        width: 84%;
+        margin-top: 1.5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    #summTM h2 {
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin-bottom: 0.8rem;
+    }
+    #summTM p {
+        text-align: justify;
+        line-height: 1.3;
+        margin-bottom: 0.8rem;
+    }
+    #summTM ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+        cursor: default;
+    }
+    #summTM ul li{
+        margin-bottom: 0.8rem;
+        font-weight: 600;
+    }
+    #summTM ul li:hover{
+        color: rebeccapurple;
+    }
+    .exTM {
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin: 0.7rem;
+    }
+    .exTM h2{
+        font-size: 1.2rem;
+        font-weight: 800;
+        margin-bottom: 0.8rem;
+    }
+    .exTM ul {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+    .exTM ul li{
+        margin-bottom: 0.4rem;
+    }
 }
