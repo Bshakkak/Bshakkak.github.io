@@ -412,6 +412,9 @@ main{
     align-items: flex-start;
     margin: 0.5rem 4rem;
 }
+#projCont h2{
+    display: none;
+}
 #projCont h3{
     font-size: 1.6rem;
     font-weight: 600;
@@ -428,3 +431,46 @@ main{
     font-weight: 450;
     text-align: justify;
 }
+
+@media only screen and (max-width: 768px){
+    #projects {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #projRight{
+        display: none;
+    }
+    #projCont{
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+    }
+    #projCont h2{
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 0.8rem 0;
+    }
+    #projCont h3{
+        font-size: 1.4rem;
+        font-weight: 600;
+        margin: 0.8rem 0;
+    }
+    #projCont ul{
+        width: 100%;
+        list-style: circle;
+        margin-left: 0.4rem;
+        line-height: 1.4;
+    }
+    #projCont ul li{
+        margin: 0.6rem auto;
+        font-weight: 450;
+        text-align: justify;
+    }
+}
+

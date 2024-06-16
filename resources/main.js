@@ -14,7 +14,9 @@ const smothMenu = (state) =>{
             sideMenu.querySelectorAll('li').forEach(li => li.onclick = ()=>{
                 sideMenu.style.marginTop = '-8.3125rem';
                 sideMenu.querySelectorAll('li').forEach(li => li.style.display='none');
-            }, 351);
+                menuState = false;
+                menu.querySelector('img').src = "./resources/images/menu.svg"
+            }, 351);  
         })
      }else
      {
