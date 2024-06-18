@@ -474,3 +474,130 @@ main{
     }
 }
 
+/*Skills Section*/
+
+.skillSect {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+}
+
+.skLeft{
+    width: 14rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.skLeft h2{
+    margin-top: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.skLeft img{
+    width: 10rem;
+    height: auto;
+    margin: 1rem;
+}
+
+.skRight{
+    width: calc(100% - 14rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0.5rem 4rem;
+}
+
+.skRight h2{
+    display: none;
+}
+.skRight div{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.skRight img{
+    width: 4rem;
+    height: auto;
+    filter: contrast(90%);
+    margin: 0.3rem;
+}
+
+@media only screen and (max-width: 768px){
+    .skillSect {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .skRight{
+        width: 84%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin: 0;
+    }
+    .skLeft {
+        display: none;
+    }
+    .skRight h2{
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 700;
+        margin: 0.8rem 0;
+    }
+    .skRight img {
+        width: 3rem;
+    }
+}
+
+/*Certificates section*/
+#certsList{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+#certsList ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#certsList ul li {
+    height: 3.8rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-weight: 700;
+}
+#certsList ul li img{
+    width: 3rem;
+    margin-right: 0.8rem;
+    object-fit: contain;
+}
+
+footer{
+    width: 100%;
+    height: 2rem;
+    background-color: midnightblue;
+    color: white;
+    font-weight: 400;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+footer span{
+    margin-left: 2rem;
+    font-size: 1.2rem;
+}
