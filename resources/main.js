@@ -48,4 +48,3 @@ North Al-Batinah region to TRC Oman under the supervision of Sohar University.`
 
 document.getElementById('txtSumm').innerHTML = summText;
 document.getElementById('txtSummTM').innerHTML = summText;
-

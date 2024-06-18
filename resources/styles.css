@@ -3,6 +3,10 @@
     font-size: 16px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 .logoFont {
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
@@ -600,4 +604,14 @@ footer{
 footer span{
     margin-left: 2rem;
     font-size: 1.2rem;
+}
+section{
+    position: relative;
+}
+.nav-fix{
+    z-index: -2;
+    position: absolute;
+    top: -69px;
+    width: 0;
+    height: 0;
 }
