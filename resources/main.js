@@ -38,12 +38,7 @@ menu.addEventListener('click', ()=>{
     smothMenu(menuState)
 })
 
-let summText = `A highly motivated computer scientist, electrical & computer engineer, and scientific researcher specialized in data science,
-with experiences in data analysis and visualization, web development, modeling and simulation, image processing, and 
-promoting ERP systems; and with a set of skills in Python, JavaScript, MATLAB, Java, and NI Multisim. Academically I have 
-published journals on image encryption, secure ML based facial recognition systems (PCA and LDA), CNN face recognition
-and soft computing implementations on tourism sector, and submitted a research on RF-EMR emissions measurement on 
-North Al-Batinah region to TRC Oman under the supervision of Sohar University.`
+let summText = `Highly motivated computer scientist and electrical & computer engineer with specialized expertise in web development and data science. Experienced in data analysis, visualization, web development, and ERP system promotion. Proficient in Python, and JavaScript. Published researcher with contributions in image encryption, secure ML-based facial recognition, and soft computing in tourism. Seeking to leverage technical skills and academic experience in a dynamic, research-focused role.`
 
 
 document.getElementById('txtSumm').innerHTML = summText;
